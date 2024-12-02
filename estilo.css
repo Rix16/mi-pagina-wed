@@ -30,7 +30,7 @@ h2{
 h3{
     color: rgb(0, 30, 16);
 }
-input[type="text"], input[type="email"]{
+input[type="text"], input[type="email"], input[type="number"] {
     min-width: 100%;
     min-height: 30%;
     margin-bottom: 5px;
@@ -38,10 +38,12 @@ input[type="text"], input[type="email"]{
     border: 2ps rgb(38, 56, 0);
 
 }
-input[type="text"]:hover, input[type="email"]:hover{
+input[type="text"]:hover,  input [type="email"], input[type="number"]:hover {
 border: 2px rgb(23, 133, 63) solid;
 box-shadow: 5px 5px 10px grey;
+
 }
+
 a:hover{
     text-shadow: 5px 5px 10px  black;
     color: green;
@@ -140,4 +142,6 @@ footer{
         "footer  footer footer footer footer" 50px / 20% auto auto auto 30%;
     }
 }
+
+
 
